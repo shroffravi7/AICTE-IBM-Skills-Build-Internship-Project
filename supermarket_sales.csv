@@ -1,0 +1,501 @@
+Transaction_ID,Product,Branch,City,Category,Customer_Type,Quantity,Unit_Price,Payment,Rating,Sales
+1,Milk,A,Delhi,Dairy,Normal,4,50.09,UPI,4.19,200.36
+2,Chips,A,Delhi,Snacks,Normal,1,33.58,Cash,3.08,33.58
+3,Chocolate,A,Delhi,Snacks,Member,9,133.9,Debit Card,3.97,1205.1
+4,Cheese,A,Delhi,Dairy,Normal,6,182.81,Cash,4.89,1096.86
+5,Tea,A,Delhi,Beverages,Member,7,106.11,Credit Card,4.01,742.77
+6,Cheese,C,Mumbai,Dairy,Normal,9,126.19,Debit Card,2.7,1135.71
+7,Coffee,C,Mumbai,Beverages,Normal,10,176.92,UPI,2.61,1769.2
+8,Biscuits,B,Pune,Food,Member,4,158.64,Debit Card,3.19,634.56
+9,Tea,A,Delhi,Beverages,Normal,6,136.57,Credit Card,4.25,819.42
+10,Milk,C,Mumbai,Dairy,Member,9,95.62,Cash,3.66,860.58
+11,Coffee,C,Mumbai,Beverages,Member,6,437.14,UPI,3.07,2622.84
+12,Cheese,B,Pune,Dairy,Normal,5,104.49,Credit Card,3.03,522.45
+13,Soft Drinks,B,Pune,Beverages,Normal,3,77.08,Cash,4.36,231.24
+14,Chips,B,Pune,Snacks,Normal,10,77.93,Cash,4.99,779.3
+15,Bread,C,Mumbai,Food,Normal,2,81.68,UPI,2.88,163.36
+16,Bread,C,Mumbai,Food,Normal,10,29.76,Debit Card,3.99,297.6
+17,Soft Drinks,C,Mumbai,Beverages,Normal,9,160.51,UPI,4.2,1444.59
+18,Milk,C,Mumbai,Dairy,Normal,6,40.04,Debit Card,2.9,240.24
+19,Cheese,C,Mumbai,Dairy,Normal,9,361.93,UPI,4.68,3257.37
+20,Coffee,C,Mumbai,Beverages,Member,3,249.57,Cash,3.85,748.71
+21,Chips,A,Delhi,Snacks,Normal,8,32.34,Credit Card,4.7,258.72
+22,Coffee,A,Delhi,Beverages,Member,4,451.2,UPI,2.71,1804.8
+23,Soft Drinks,A,Delhi,Beverages,Member,3,132.37,Cash,3.16,397.11
+24,Chocolate,B,Pune,Snacks,Member,9,201.05,Cash,4.28,1809.45
+25,Juice,C,Mumbai,Beverages,Normal,8,230.93,Debit Card,2.8,1847.44
+26,Biscuits,A,Delhi,Food,Normal,1,114.13,Cash,3.97,114.13
+27,Cheese,A,Delhi,Dairy,Member,4,104.94,UPI,4.65,419.76
+28,Milk,C,Mumbai,Dairy,Member,5,90.21,Cash,3.85,451.05
+29,Chocolate,C,Mumbai,Snacks,Normal,4,206.92,Debit Card,2.98,827.68
+30,Milk,C,Mumbai,Dairy,Normal,6,68.12,Debit Card,4.66,408.72
+31,Cheese,C,Mumbai,Dairy,Member,1,228.97,Credit Card,4.5,228.97
+32,Milk,A,Delhi,Dairy,Member,4,78.27,Cash,3.55,313.08
+33,Coffee,B,Pune,Beverages,Member,2,277.25,UPI,2.63,554.5
+34,Chips,A,Delhi,Snacks,Member,4,49.96,Debit Card,3.7,199.84
+35,Juice,A,Delhi,Beverages,Member,7,60.41,Debit Card,3.16,422.87
+36,Soft Drinks,B,Pune,Beverages,Normal,9,132.66,Debit Card,2.89,1193.94
+37,Coffee,A,Delhi,Beverages,Member,10,394.29,UPI,4.37,3942.9
+38,Cheese,A,Delhi,Dairy,Normal,9,420.17,Cash,2.64,3781.53
+39,Chips,A,Delhi,Snacks,Member,2,101.4,Cash,3.51,202.8
+40,Chocolate,A,Delhi,Snacks,Member,10,66.4,Credit Card,4.84,664.0
+41,Biscuits,C,Mumbai,Food,Normal,4,62.5,Cash,4.18,250.0
+42,Coffee,B,Pune,Beverages,Normal,2,103.73,UPI,2.68,207.46
+43,Biscuits,C,Mumbai,Food,Normal,3,169.32,UPI,4.7,507.96
+44,Tea,B,Pune,Beverages,Member,8,305.11,Credit Card,4.03,2440.88
+45,Chips,A,Delhi,Snacks,Normal,2,142.67,Cash,3.16,285.34
+46,Milk,C,Mumbai,Dairy,Member,5,55.36,Cash,4.29,276.8
+47,Biscuits,C,Mumbai,Food,Normal,9,98.17,UPI,2.73,883.53
+48,Juice,B,Pune,Beverages,Member,1,123.38,Cash,4.09,123.38
+49,Coffee,A,Delhi,Beverages,Normal,9,382.27,UPI,2.78,3440.43
+50,Bread,C,Mumbai,Food,Member,6,68.69,Cash,3.57,412.14
+51,Cheese,B,Pune,Dairy,Normal,1,412.6,Cash,4.21,412.6
+52,Milk,B,Pune,Dairy,Normal,10,97.45,Cash,4.66,974.5
+53,Bread,B,Pune,Food,Member,3,80.24,Credit Card,4.46,240.72
+54,Juice,C,Mumbai,Beverages,Member,5,90.25,UPI,3.46,451.25
+55,Cheese,B,Pune,Dairy,Member,4,382.14,Debit Card,3.37,1528.56
+56,Biscuits,A,Delhi,Food,Member,4,83.75,Credit Card,4.66,335.0
+57,Coffee,B,Pune,Beverages,Normal,9,232.46,UPI,2.79,2092.14
+58,Coffee,A,Delhi,Beverages,Normal,1,143.36,Debit Card,3.36,143.36
+59,Tea,B,Pune,Beverages,Member,7,322.87,Cash,3.14,2260.09
+60,Juice,A,Delhi,Beverages,Member,6,141.95,Credit Card,4.06,851.7
+61,Milk,C,Mumbai,Dairy,Normal,9,57.84,Debit Card,3.32,520.56
+62,Coffee,C,Mumbai,Beverages,Member,4,268.18,Debit Card,4.19,1072.72
+63,Bread,C,Mumbai,Food,Normal,7,66.1,UPI,3.26,462.7
+64,Biscuits,B,Pune,Food,Normal,8,90.69,Cash,3.78,725.52
+65,Bread,C,Mumbai,Food,Member,5,63.66,Credit Card,2.73,318.3
+66,Biscuits,C,Mumbai,Food,Normal,4,149.05,Cash,2.56,596.2
+67,Biscuits,B,Pune,Food,Member,8,86.31,Cash,4.3,690.48
+68,Juice,B,Pune,Beverages,Normal,4,88.04,UPI,4.73,352.16
+69,Milk,B,Pune,Dairy,Member,3,102.37,Debit Card,2.63,307.11
+70,Biscuits,A,Delhi,Food,Normal,3,148.23,Credit Card,4.88,444.69
+71,Soft Drinks,C,Mumbai,Beverages,Normal,9,102.43,Cash,4.36,921.87
+72,Soft Drinks,B,Pune,Beverages,Normal,4,157.58,Credit Card,4.41,630.32
+73,Chips,B,Pune,Snacks,Member,5,82.78,Credit Card,3.09,413.9
+74,Tea,B,Pune,Beverages,Member,3,120.72,Debit Card,4.23,362.16
+75,Biscuits,A,Delhi,Food,Normal,7,72.94,Debit Card,3.54,510.58
+76,Biscuits,B,Pune,Food,Normal,10,171.37,UPI,4.64,1713.7
+77,Chocolate,B,Pune,Snacks,Normal,1,238.55,Credit Card,4.38,238.55
+78,Juice,C,Mumbai,Beverages,Member,8,101.69,Debit Card,3.71,813.52
+79,Juice,B,Pune,Beverages,Normal,3,219.7,Cash,4.95,659.1
+80,Chips,A,Delhi,Snacks,Normal,10,97.73,UPI,2.71,977.3
+81,Juice,A,Delhi,Beverages,Normal,3,69.55,Debit Card,3.32,208.65
+82,Soft Drinks,B,Pune,Beverages,Normal,7,78.96,Debit Card,3.13,552.72
+83,Milk,B,Pune,Dairy,Member,9,34.69,Credit Card,3.06,312.21
+84,Milk,C,Mumbai,Dairy,Member,1,115.47,Cash,4.6,115.47
+85,Chocolate,A,Delhi,Snacks,Member,3,144.71,UPI,3.91,434.13
+86,Biscuits,B,Pune,Food,Normal,6,46.85,UPI,4.44,281.1
+87,Bread,B,Pune,Food,Member,10,26.93,Credit Card,3.94,269.3
+88,Juice,B,Pune,Beverages,Member,2,172.5,Cash,2.75,345.0
+89,Coffee,C,Mumbai,Beverages,Member,10,413.05,Credit Card,3.83,4130.5
+90,Tea,A,Delhi,Beverages,Normal,1,309.39,Debit Card,2.76,309.39
+91,Tea,C,Mumbai,Beverages,Normal,3,197.58,Credit Card,4.04,592.74
+92,Chips,B,Pune,Snacks,Normal,7,129.09,Credit Card,3.31,903.63
+93,Biscuits,A,Delhi,Food,Normal,8,59.02,Debit Card,3.92,472.16
+94,Juice,B,Pune,Beverages,Member,8,221.68,Cash,3.72,1773.44
+95,Tea,B,Pune,Beverages,Normal,5,317.69,Credit Card,3.89,1588.45
+96,Chips,A,Delhi,Snacks,Member,4,116.41,Debit Card,3.89,465.64
+97,Biscuits,C,Mumbai,Food,Normal,8,91.71,UPI,2.73,733.68
+98,Biscuits,B,Pune,Food,Member,5,126.23,Credit Card,3.68,631.15
+99,Chips,B,Pune,Snacks,Normal,9,69.69,Debit Card,3.18,627.21
+100,Coffee,A,Delhi,Beverages,Member,4,226.22,Cash,2.98,904.88
+101,Soft Drinks,B,Pune,Beverages,Normal,2,156.57,Credit Card,3.07,313.14
+102,Bread,B,Pune,Food,Member,9,34.49,UPI,4.94,310.41
+103,Chips,B,Pune,Snacks,Member,8,42.31,UPI,3.94,338.48
+104,Soft Drinks,B,Pune,Beverages,Normal,6,65.81,UPI,3.13,394.86
+105,Soft Drinks,A,Delhi,Beverages,Member,7,108.84,UPI,2.88,761.88
+106,Chocolate,B,Pune,Snacks,Member,4,73.69,Debit Card,4.02,294.76
+107,Chocolate,A,Delhi,Snacks,Normal,8,231.7,Credit Card,4.65,1853.6
+108,Juice,B,Pune,Beverages,Member,10,242.42,UPI,4.87,2424.2
+109,Biscuits,C,Mumbai,Food,Member,5,125.67,Cash,3.1,628.35
+110,Chips,A,Delhi,Snacks,Member,1,79.02,Debit Card,3.23,79.02
+111,Biscuits,B,Pune,Food,Normal,8,31.39,Cash,4.81,251.12
+112,Chocolate,C,Mumbai,Snacks,Member,7,72.96,Cash,4.12,510.72
+113,Coffee,A,Delhi,Beverages,Member,1,166.37,Credit Card,3.99,166.37
+114,Chocolate,B,Pune,Snacks,Normal,2,143.74,Credit Card,4.25,287.48
+115,Coffee,C,Mumbai,Beverages,Normal,8,132.18,UPI,4.72,1057.44
+116,Tea,C,Mumbai,Beverages,Normal,1,104.66,UPI,5.0,104.66
+117,Coffee,C,Mumbai,Beverages,Member,3,288.2,Debit Card,4.79,864.6
+118,Bread,C,Mumbai,Food,Normal,8,97.68,Debit Card,3.37,781.44
+119,Tea,B,Pune,Beverages,Member,3,169.05,Debit Card,3.22,507.15
+120,Juice,C,Mumbai,Beverages,Member,8,76.73,Credit Card,3.31,613.84
+121,Juice,C,Mumbai,Beverages,Member,9,147.78,UPI,2.97,1330.02
+122,Tea,C,Mumbai,Beverages,Normal,8,285.2,Cash,3.17,2281.6
+123,Bread,B,Pune,Food,Normal,8,34.11,Cash,4.27,272.88
+124,Coffee,C,Mumbai,Beverages,Member,9,263.2,Cash,4.98,2368.8
+125,Milk,B,Pune,Dairy,Member,3,74.85,Credit Card,3.77,224.55
+126,Coffee,B,Pune,Beverages,Normal,8,197.49,Cash,3.46,1579.92
+127,Chocolate,C,Mumbai,Snacks,Member,2,105.25,Debit Card,3.35,210.5
+128,Chips,B,Pune,Snacks,Member,5,117.13,Debit Card,4.66,585.65
+129,Soft Drinks,C,Mumbai,Beverages,Normal,6,86.54,Debit Card,3.64,519.24
+130,Tea,A,Delhi,Beverages,Member,10,183.4,Debit Card,2.61,1834.0
+131,Soft Drinks,C,Mumbai,Beverages,Normal,7,178.38,Cash,3.74,1248.66
+132,Cheese,A,Delhi,Dairy,Normal,2,403.45,Debit Card,2.75,806.9
+133,Soft Drinks,A,Delhi,Beverages,Member,7,161.93,Cash,2.69,1133.51
+134,Coffee,B,Pune,Beverages,Normal,2,440.71,Debit Card,4.89,881.42
+135,Soft Drinks,C,Mumbai,Beverages,Member,10,49.58,Credit Card,4.99,495.8
+136,Milk,B,Pune,Dairy,Member,2,69.93,Credit Card,4.76,139.86
+137,Cheese,B,Pune,Dairy,Member,5,212.63,Debit Card,2.86,1063.15
+138,Chips,B,Pune,Snacks,Member,3,51.01,Debit Card,4.05,153.03
+139,Biscuits,B,Pune,Food,Member,4,93.78,Credit Card,3.65,375.12
+140,Cheese,B,Pune,Dairy,Normal,9,138.45,Debit Card,4.86,1246.05
+141,Chocolate,B,Pune,Snacks,Normal,5,141.37,Credit Card,3.0,706.85
+142,Juice,B,Pune,Beverages,Member,4,132.46,Credit Card,3.94,529.84
+143,Coffee,A,Delhi,Beverages,Normal,5,103.24,UPI,4.78,516.2
+144,Soft Drinks,B,Pune,Beverages,Member,10,152.27,Cash,4.09,1522.7
+145,Chocolate,B,Pune,Snacks,Member,2,230.68,UPI,3.27,461.36
+146,Soft Drinks,A,Delhi,Beverages,Normal,3,52.62,Credit Card,3.32,157.86
+147,Juice,A,Delhi,Beverages,Member,3,209.44,Credit Card,3.83,628.32
+148,Coffee,A,Delhi,Beverages,Normal,8,486.95,Credit Card,4.37,3895.6
+149,Tea,A,Delhi,Beverages,Normal,2,118.0,Cash,4.65,236.0
+150,Juice,C,Mumbai,Beverages,Normal,2,210.23,UPI,3.16,420.46
+151,Milk,B,Pune,Dairy,Normal,5,82.61,Credit Card,2.77,413.05
+152,Biscuits,B,Pune,Food,Member,10,161.48,Credit Card,4.79,1614.8
+153,Biscuits,C,Mumbai,Food,Member,8,165.5,Credit Card,4.12,1324.0
+154,Milk,A,Delhi,Dairy,Member,1,57.39,Debit Card,2.79,57.39
+155,Biscuits,C,Mumbai,Food,Member,7,92.58,Debit Card,3.97,648.06
+156,Bread,B,Pune,Food,Member,8,71.17,Credit Card,2.58,569.36
+157,Tea,A,Delhi,Beverages,Normal,8,336.65,Credit Card,2.75,2693.2
+158,Tea,C,Mumbai,Beverages,Normal,1,187.5,Cash,4.92,187.5
+159,Soft Drinks,A,Delhi,Beverages,Member,10,175.95,UPI,4.47,1759.5
+160,Biscuits,A,Delhi,Food,Member,2,152.77,Cash,3.97,305.54
+161,Biscuits,B,Pune,Food,Member,10,20.45,Cash,4.97,204.5
+162,Chips,B,Pune,Snacks,Member,2,109.33,UPI,2.83,218.66
+163,Tea,A,Delhi,Beverages,Normal,1,127.05,UPI,2.82,127.05
+164,Juice,C,Mumbai,Beverages,Member,2,150.49,Credit Card,3.78,300.98
+165,Milk,B,Pune,Dairy,Member,10,33.9,Credit Card,3.65,339.0
+166,Cheese,A,Delhi,Dairy,Normal,7,237.72,UPI,3.73,1664.04
+167,Soft Drinks,A,Delhi,Beverages,Member,6,125.16,UPI,2.82,750.96
+168,Chocolate,C,Mumbai,Snacks,Normal,7,248.93,Credit Card,3.63,1742.51
+169,Chocolate,B,Pune,Snacks,Member,2,220.56,Cash,3.58,441.12
+170,Biscuits,B,Pune,Food,Normal,8,83.8,UPI,3.28,670.4
+171,Tea,C,Mumbai,Beverages,Normal,6,337.47,Debit Card,2.67,2024.82
+172,Milk,A,Delhi,Dairy,Normal,2,97.01,Credit Card,4.53,194.02
+173,Chips,A,Delhi,Snacks,Normal,2,79.3,Debit Card,4.67,158.6
+174,Cheese,B,Pune,Dairy,Normal,6,118.33,Cash,2.89,709.98
+175,Soft Drinks,A,Delhi,Beverages,Member,6,158.35,Credit Card,2.79,950.1
+176,Coffee,C,Mumbai,Beverages,Member,7,438.06,UPI,4.02,3066.42
+177,Coffee,A,Delhi,Beverages,Member,5,381.08,Credit Card,4.8,1905.4
+178,Tea,A,Delhi,Beverages,Member,3,232.91,Debit Card,2.67,698.73
+179,Cheese,A,Delhi,Dairy,Member,7,235.34,Credit Card,2.89,1647.38
+180,Coffee,C,Mumbai,Beverages,Normal,10,338.49,UPI,2.89,3384.9
+181,Chocolate,A,Delhi,Snacks,Member,5,138.62,Debit Card,3.71,693.1
+182,Soft Drinks,B,Pune,Beverages,Normal,4,145.69,UPI,3.36,582.76
+183,Milk,B,Pune,Dairy,Normal,9,90.04,UPI,3.05,810.36
+184,Chocolate,A,Delhi,Snacks,Member,4,110.28,Cash,4.42,441.12
+185,Coffee,B,Pune,Beverages,Normal,2,103.09,Debit Card,2.94,206.18
+186,Juice,C,Mumbai,Beverages,Member,9,166.16,Credit Card,2.68,1495.44
+187,Cheese,B,Pune,Dairy,Member,8,420.83,Credit Card,3.94,3366.64
+188,Chocolate,B,Pune,Snacks,Normal,5,73.03,UPI,4.92,365.15
+189,Bread,C,Mumbai,Food,Normal,6,31.61,UPI,3.11,189.66
+190,Chocolate,B,Pune,Snacks,Member,7,224.1,Credit Card,3.05,1568.7
+191,Bread,A,Delhi,Food,Member,9,63.25,Credit Card,3.38,569.25
+192,Bread,A,Delhi,Food,Member,3,44.2,Cash,4.01,132.6
+193,Milk,A,Delhi,Dairy,Normal,8,97.9,Debit Card,4.2,783.2
+194,Chocolate,C,Mumbai,Snacks,Normal,6,80.19,UPI,3.67,481.14
+195,Coffee,B,Pune,Beverages,Member,6,302.93,Credit Card,3.65,1817.58
+196,Cheese,A,Delhi,Dairy,Normal,5,108.39,UPI,4.04,541.95
+197,Chips,B,Pune,Snacks,Normal,10,96.52,UPI,3.62,965.2
+198,Chocolate,C,Mumbai,Snacks,Member,6,171.0,Cash,4.89,1026.0
+199,Soft Drinks,A,Delhi,Beverages,Normal,2,110.64,Cash,2.6,221.28
+200,Soft Drinks,B,Pune,Beverages,Member,6,92.2,Credit Card,3.47,553.2
+201,Tea,C,Mumbai,Beverages,Member,6,97.8,UPI,3.89,586.8
+202,Juice,B,Pune,Beverages,Normal,10,225.92,Credit Card,2.7,2259.2
+203,Bread,B,Pune,Food,Normal,7,34.67,UPI,3.27,242.69
+204,Juice,C,Mumbai,Beverages,Normal,3,187.32,UPI,4.12,561.96
+205,Juice,C,Mumbai,Beverages,Normal,1,128.89,Cash,4.88,128.89
+206,Tea,B,Pune,Beverages,Member,4,349.99,Cash,2.69,1399.96
+207,Milk,C,Mumbai,Dairy,Member,6,108.88,Cash,3.99,653.28
+208,Bread,A,Delhi,Food,Member,10,85.68,Cash,4.3,856.8
+209,Cheese,B,Pune,Dairy,Normal,4,438.75,Credit Card,4.38,1755.0
+210,Soft Drinks,A,Delhi,Beverages,Member,5,175.18,Debit Card,4.76,875.9
+211,Biscuits,B,Pune,Food,Normal,8,143.11,Debit Card,3.76,1144.88
+212,Juice,A,Delhi,Beverages,Member,10,86.3,Credit Card,2.63,863.0
+213,Soft Drinks,B,Pune,Beverages,Member,9,159.16,Credit Card,2.71,1432.44
+214,Bread,B,Pune,Food,Normal,9,36.05,Debit Card,2.73,324.45
+215,Biscuits,B,Pune,Food,Normal,1,86.38,Debit Card,3.76,86.38
+216,Biscuits,B,Pune,Food,Member,6,55.93,Credit Card,4.83,335.58
+217,Tea,A,Delhi,Beverages,Member,1,157.46,Debit Card,4.24,157.46
+218,Bread,C,Mumbai,Food,Normal,8,71.15,UPI,2.55,569.2
+219,Biscuits,A,Delhi,Food,Normal,2,144.19,Cash,3.25,288.38
+220,Cheese,A,Delhi,Dairy,Normal,10,249.13,UPI,4.59,2491.3
+221,Soft Drinks,C,Mumbai,Beverages,Member,9,120.51,Cash,3.23,1084.59
+222,Cheese,C,Mumbai,Dairy,Normal,4,291.15,Cash,4.16,1164.6
+223,Milk,C,Mumbai,Dairy,Normal,2,115.81,UPI,3.48,231.62
+224,Soft Drinks,A,Delhi,Beverages,Normal,6,75.51,UPI,3.39,453.06
+225,Milk,B,Pune,Dairy,Member,2,99.44,Credit Card,2.83,198.88
+226,Tea,C,Mumbai,Beverages,Normal,3,304.2,Debit Card,4.95,912.6
+227,Soft Drinks,C,Mumbai,Beverages,Member,3,48.83,Debit Card,2.59,146.49
+228,Biscuits,A,Delhi,Food,Member,1,70.5,Credit Card,3.79,70.5
+229,Chips,B,Pune,Snacks,Normal,1,120.39,Cash,3.22,120.39
+230,Cheese,C,Mumbai,Dairy,Normal,5,126.06,Credit Card,3.59,630.3
+231,Juice,C,Mumbai,Beverages,Normal,7,124.42,Cash,3.74,870.94
+232,Soft Drinks,B,Pune,Beverages,Normal,2,141.79,UPI,3.58,283.58
+233,Bread,C,Mumbai,Food,Normal,6,32.69,Credit Card,4.15,196.14
+234,Coffee,B,Pune,Beverages,Normal,3,375.91,Credit Card,3.62,1127.73
+235,Tea,C,Mumbai,Beverages,Normal,5,252.66,UPI,2.69,1263.3
+236,Juice,B,Pune,Beverages,Member,1,87.13,Debit Card,2.59,87.13
+237,Milk,A,Delhi,Dairy,Normal,6,64.46,UPI,4.01,386.76
+238,Soft Drinks,B,Pune,Beverages,Normal,8,146.83,Cash,3.82,1174.64
+239,Juice,B,Pune,Beverages,Normal,4,242.5,UPI,4.34,970.0
+240,Soft Drinks,C,Mumbai,Beverages,Normal,9,56.49,Credit Card,4.26,508.41
+241,Biscuits,C,Mumbai,Food,Normal,8,52.03,Cash,4.63,416.24
+242,Soft Drinks,A,Delhi,Beverages,Normal,2,153.47,Credit Card,4.17,306.94
+243,Milk,C,Mumbai,Dairy,Normal,5,106.62,Cash,4.48,533.1
+244,Chips,A,Delhi,Snacks,Member,4,125.05,Cash,4.48,500.2
+245,Cheese,B,Pune,Dairy,Normal,8,377.35,Cash,4.03,3018.8
+246,Milk,A,Delhi,Dairy,Normal,7,119.96,Debit Card,3.81,839.72
+247,Juice,C,Mumbai,Beverages,Member,3,244.75,UPI,3.62,734.25
+248,Chips,B,Pune,Snacks,Member,9,106.78,Cash,4.42,961.02
+249,Bread,B,Pune,Food,Member,2,63.86,Credit Card,2.91,127.72
+250,Tea,C,Mumbai,Beverages,Member,6,335.82,Credit Card,4.61,2014.92
+251,Coffee,A,Delhi,Beverages,Normal,3,350.01,UPI,3.76,1050.03
+252,Bread,C,Mumbai,Food,Member,3,74.4,Credit Card,4.61,223.2
+253,Chocolate,A,Delhi,Snacks,Member,2,59.09,Credit Card,4.13,118.18
+254,Chocolate,B,Pune,Snacks,Member,8,227.8,Credit Card,4.1,1822.4
+255,Coffee,B,Pune,Beverages,Member,7,218.97,UPI,4.22,1532.79
+256,Bread,B,Pune,Food,Normal,8,59.83,Credit Card,4.02,478.64
+257,Tea,C,Mumbai,Beverages,Normal,6,343.35,Cash,4.4,2060.1
+258,Chips,C,Mumbai,Snacks,Member,6,59.01,UPI,3.17,354.06
+259,Biscuits,A,Delhi,Food,Member,1,66.43,Debit Card,4.66,66.43
+260,Juice,A,Delhi,Beverages,Member,6,237.41,Credit Card,2.97,1424.46
+261,Bread,B,Pune,Food,Normal,8,90.93,Debit Card,2.56,727.44
+262,Juice,C,Mumbai,Beverages,Normal,4,100.88,Credit Card,2.62,403.52
+263,Coffee,B,Pune,Beverages,Normal,5,314.68,UPI,3.58,1573.4
+264,Coffee,C,Mumbai,Beverages,Normal,7,246.37,Debit Card,2.63,1724.59
+265,Chips,A,Delhi,Snacks,Normal,9,64.63,Debit Card,3.76,581.67
+266,Chips,B,Pune,Snacks,Member,3,147.01,Debit Card,3.43,441.03
+267,Tea,C,Mumbai,Beverages,Normal,3,133.75,Debit Card,3.75,401.25
+268,Cheese,A,Delhi,Dairy,Member,6,377.47,Debit Card,2.87,2264.82
+269,Chips,A,Delhi,Snacks,Normal,10,68.22,Debit Card,4.98,682.2
+270,Coffee,C,Mumbai,Beverages,Normal,9,431.32,Debit Card,4.27,3881.88
+271,Coffee,B,Pune,Beverages,Member,6,232.5,UPI,4.95,1395.0
+272,Chocolate,B,Pune,Snacks,Member,10,144.92,Cash,4.3,1449.2
+273,Chocolate,B,Pune,Snacks,Member,9,175.81,Debit Card,2.87,1582.29
+274,Biscuits,A,Delhi,Food,Member,4,23.03,Credit Card,3.55,92.12
+275,Juice,C,Mumbai,Beverages,Member,7,155.35,Debit Card,4.68,1087.45
+276,Cheese,C,Mumbai,Dairy,Member,9,156.72,Credit Card,5.0,1410.48
+277,Soft Drinks,C,Mumbai,Beverages,Normal,6,173.94,Debit Card,4.78,1043.64
+278,Tea,C,Mumbai,Beverages,Normal,5,244.72,Cash,4.89,1223.6
+279,Coffee,C,Mumbai,Beverages,Normal,4,476.59,Credit Card,4.43,1906.36
+280,Biscuits,C,Mumbai,Food,Normal,6,96.77,Credit Card,3.22,580.62
+281,Chocolate,C,Mumbai,Snacks,Normal,7,213.68,Cash,3.23,1495.76
+282,Coffee,C,Mumbai,Beverages,Member,6,469.6,Credit Card,4.37,2817.6
+283,Biscuits,A,Delhi,Food,Normal,9,131.39,Cash,2.77,1182.51
+284,Chocolate,A,Delhi,Snacks,Member,1,183.97,Cash,4.09,183.97
+285,Cheese,A,Delhi,Dairy,Normal,6,345.42,UPI,4.2,2072.52
+286,Bread,A,Delhi,Food,Member,7,73.97,Debit Card,3.69,517.79
+287,Biscuits,B,Pune,Food,Normal,5,123.34,UPI,4.13,616.7
+288,Biscuits,C,Mumbai,Food,Member,3,86.86,Cash,4.83,260.58
+289,Cheese,B,Pune,Dairy,Normal,3,426.55,Credit Card,4.69,1279.65
+290,Cheese,B,Pune,Dairy,Member,6,185.29,Debit Card,4.72,1111.74
+291,Bread,C,Mumbai,Food,Normal,5,39.46,UPI,3.33,197.3
+292,Soft Drinks,C,Mumbai,Beverages,Normal,3,41.97,Credit Card,4.48,125.91
+293,Chocolate,C,Mumbai,Snacks,Member,3,172.19,Debit Card,4.57,516.57
+294,Chips,B,Pune,Snacks,Member,7,110.31,Cash,4.95,772.17
+295,Soft Drinks,B,Pune,Beverages,Member,1,76.51,Cash,3.62,76.51
+296,Coffee,B,Pune,Beverages,Normal,10,389.15,UPI,3.15,3891.5
+297,Tea,C,Mumbai,Beverages,Member,1,260.3,Debit Card,3.27,260.3
+298,Juice,C,Mumbai,Beverages,Normal,2,181.36,Credit Card,3.42,362.72
+299,Biscuits,A,Delhi,Food,Member,8,44.51,Credit Card,3.54,356.08
+300,Chips,B,Pune,Snacks,Member,4,111.64,UPI,3.81,446.56
+301,Chips,C,Mumbai,Snacks,Normal,2,140.07,UPI,2.65,280.14
+302,Chips,C,Mumbai,Snacks,Member,10,94.4,Cash,3.32,944.0
+303,Chips,B,Pune,Snacks,Member,4,116.03,Debit Card,2.73,464.12
+304,Chips,B,Pune,Snacks,Member,8,45.83,Debit Card,3.64,366.64
+305,Cheese,C,Mumbai,Dairy,Normal,5,347.61,Debit Card,3.14,1738.05
+306,Cheese,C,Mumbai,Dairy,Member,10,107.02,Debit Card,3.36,1070.2
+307,Milk,C,Mumbai,Dairy,Member,2,118.75,Debit Card,2.58,237.5
+308,Juice,A,Delhi,Beverages,Member,7,131.15,Debit Card,3.62,918.05
+309,Juice,B,Pune,Beverages,Member,9,85.27,Credit Card,2.8,767.43
+310,Chips,B,Pune,Snacks,Member,4,130.18,UPI,4.95,520.72
+311,Soft Drinks,C,Mumbai,Beverages,Normal,9,93.1,Cash,3.12,837.9
+312,Tea,A,Delhi,Beverages,Normal,4,333.1,UPI,2.58,1332.4
+313,Juice,C,Mumbai,Beverages,Member,4,99.16,UPI,3.98,396.64
+314,Soft Drinks,C,Mumbai,Beverages,Member,4,143.68,Debit Card,3.6,574.72
+315,Chips,A,Delhi,Snacks,Member,3,90.47,Credit Card,3.09,271.41
+316,Chocolate,B,Pune,Snacks,Normal,4,110.35,Cash,4.96,441.4
+317,Chips,A,Delhi,Snacks,Normal,5,63.02,Cash,4.06,315.1
+318,Juice,C,Mumbai,Beverages,Normal,1,244.74,Debit Card,4.46,244.74
+319,Tea,C,Mumbai,Beverages,Normal,7,120.29,Debit Card,2.96,842.03
+320,Chips,B,Pune,Snacks,Member,4,66.09,Cash,4.51,264.36
+321,Cheese,C,Mumbai,Dairy,Normal,7,286.2,Cash,3.47,2003.4
+322,Coffee,A,Delhi,Beverages,Normal,2,468.89,Credit Card,2.73,937.78
+323,Biscuits,A,Delhi,Food,Normal,7,127.79,UPI,4.68,894.53
+324,Biscuits,C,Mumbai,Food,Member,8,53.42,Credit Card,3.26,427.36
+325,Cheese,A,Delhi,Dairy,Member,2,356.35,Debit Card,4.79,712.7
+326,Chocolate,C,Mumbai,Snacks,Member,7,233.03,Credit Card,4.44,1631.21
+327,Juice,B,Pune,Beverages,Normal,5,109.7,Debit Card,3.67,548.5
+328,Soft Drinks,B,Pune,Beverages,Member,6,83.81,UPI,3.91,502.86
+329,Biscuits,C,Mumbai,Food,Member,1,61.72,Debit Card,3.24,61.72
+330,Biscuits,B,Pune,Food,Member,7,111.17,Cash,3.75,778.19
+331,Tea,B,Pune,Beverages,Normal,8,204.42,Credit Card,2.92,1635.36
+332,Chips,B,Pune,Snacks,Member,9,148.84,UPI,3.81,1339.56
+333,Milk,C,Mumbai,Dairy,Member,1,67.12,Cash,2.67,67.12
+334,Bread,A,Delhi,Food,Member,9,59.2,UPI,4.04,532.8
+335,Chocolate,B,Pune,Snacks,Normal,1,51.32,Debit Card,2.53,51.32
+336,Chips,C,Mumbai,Snacks,Normal,9,147.3,UPI,3.76,1325.7
+337,Juice,A,Delhi,Beverages,Member,2,159.63,Cash,2.98,319.26
+338,Chips,B,Pune,Snacks,Normal,5,125.39,UPI,3.43,626.95
+339,Juice,B,Pune,Beverages,Member,4,117.0,UPI,4.13,468.0
+340,Cheese,A,Delhi,Dairy,Normal,7,219.55,Debit Card,2.64,1536.85
+341,Cheese,C,Mumbai,Dairy,Member,2,264.95,Debit Card,4.11,529.9
+342,Tea,C,Mumbai,Beverages,Member,9,328.17,Cash,3.03,2953.53
+343,Chocolate,B,Pune,Snacks,Normal,1,234.83,Credit Card,4.75,234.83
+344,Chocolate,C,Mumbai,Snacks,Member,3,235.75,Credit Card,2.54,707.25
+345,Biscuits,C,Mumbai,Food,Member,7,168.62,Credit Card,2.91,1180.34
+346,Biscuits,C,Mumbai,Food,Normal,9,73.08,Cash,4.48,657.72
+347,Milk,C,Mumbai,Dairy,Normal,1,38.79,Cash,4.6,38.79
+348,Tea,C,Mumbai,Beverages,Normal,6,88.0,Credit Card,4.46,528.0
+349,Soft Drinks,B,Pune,Beverages,Member,6,117.43,Debit Card,3.58,704.58
+350,Chocolate,C,Mumbai,Snacks,Normal,2,204.43,Credit Card,4.5,408.86
+351,Milk,A,Delhi,Dairy,Normal,3,64.2,Cash,4.35,192.6
+352,Tea,B,Pune,Beverages,Member,2,81.4,Credit Card,3.61,162.8
+353,Coffee,A,Delhi,Beverages,Member,2,174.96,Debit Card,3.89,349.92
+354,Chips,B,Pune,Snacks,Member,1,40.75,UPI,3.99,40.75
+355,Tea,B,Pune,Beverages,Member,5,191.73,UPI,4.31,958.65
+356,Chips,A,Delhi,Snacks,Member,7,50.34,Credit Card,3.25,352.38
+357,Soft Drinks,A,Delhi,Beverages,Member,3,100.85,Debit Card,3.25,302.55
+358,Milk,B,Pune,Dairy,Normal,4,94.88,Debit Card,3.98,379.52
+359,Biscuits,B,Pune,Food,Member,3,68.75,Debit Card,3.33,206.25
+360,Chocolate,B,Pune,Snacks,Normal,8,116.95,Cash,3.25,935.6
+361,Chocolate,C,Mumbai,Snacks,Member,8,112.84,Debit Card,4.92,902.72
+362,Coffee,C,Mumbai,Beverages,Normal,10,412.79,Credit Card,3.44,4127.9
+363,Juice,B,Pune,Beverages,Member,10,97.96,Cash,4.2,979.6
+364,Chips,A,Delhi,Snacks,Normal,4,82.61,Credit Card,4.58,330.44
+365,Milk,B,Pune,Dairy,Normal,3,87.0,Cash,3.13,261.0
+366,Bread,C,Mumbai,Food,Normal,7,30.55,Debit Card,3.96,213.85
+367,Chips,C,Mumbai,Snacks,Normal,9,34.41,Credit Card,4.25,309.69
+368,Chips,C,Mumbai,Snacks,Member,2,122.27,Credit Card,2.92,244.54
+369,Chocolate,A,Delhi,Snacks,Normal,6,243.14,Debit Card,2.76,1458.84
+370,Milk,B,Pune,Dairy,Member,9,97.22,Cash,3.61,874.98
+371,Juice,B,Pune,Beverages,Member,6,249.56,Debit Card,2.76,1497.36
+372,Juice,A,Delhi,Beverages,Member,3,126.18,Credit Card,3.64,378.54
+373,Biscuits,C,Mumbai,Food,Normal,6,96.19,Debit Card,4.3,577.14
+374,Soft Drinks,B,Pune,Beverages,Member,5,46.26,UPI,2.56,231.3
+375,Tea,C,Mumbai,Beverages,Member,3,331.08,Cash,3.79,993.24
+376,Chips,A,Delhi,Snacks,Normal,9,81.16,Debit Card,3.08,730.44
+377,Juice,C,Mumbai,Beverages,Member,3,181.69,Debit Card,3.49,545.07
+378,Chocolate,A,Delhi,Snacks,Normal,10,135.91,UPI,4.26,1359.1
+379,Biscuits,B,Pune,Food,Member,10,36.28,Cash,3.41,362.8
+380,Biscuits,B,Pune,Food,Member,5,127.31,Debit Card,3.82,636.55
+381,Tea,C,Mumbai,Beverages,Normal,10,185.99,UPI,3.37,1859.9
+382,Soft Drinks,C,Mumbai,Beverages,Member,5,168.62,UPI,4.18,843.1
+383,Tea,A,Delhi,Beverages,Member,5,111.58,Credit Card,4.23,557.9
+384,Chips,B,Pune,Snacks,Normal,10,46.54,Debit Card,3.56,465.4
+385,Soft Drinks,C,Mumbai,Beverages,Member,9,63.36,Credit Card,2.85,570.24
+386,Tea,B,Pune,Beverages,Member,6,337.0,Debit Card,2.84,2022.0
+387,Juice,C,Mumbai,Beverages,Normal,7,190.09,Debit Card,4.28,1330.63
+388,Soft Drinks,B,Pune,Beverages,Member,2,119.16,Cash,3.23,238.32
+389,Coffee,A,Delhi,Beverages,Normal,3,412.3,Debit Card,3.87,1236.9
+390,Milk,C,Mumbai,Dairy,Member,5,99.76,Credit Card,3.86,498.8
+391,Cheese,C,Mumbai,Dairy,Normal,9,160.86,Debit Card,2.76,1447.74
+392,Biscuits,B,Pune,Food,Member,8,62.05,UPI,3.6,496.4
+393,Milk,A,Delhi,Dairy,Member,10,92.02,Debit Card,2.91,920.2
+394,Bread,A,Delhi,Food,Member,1,67.76,Credit Card,3.99,67.76
+395,Bread,B,Pune,Food,Normal,5,67.96,UPI,2.84,339.8
+396,Juice,A,Delhi,Beverages,Normal,3,193.27,Cash,3.12,579.81
+397,Tea,A,Delhi,Beverages,Normal,8,118.39,Credit Card,4.07,947.12
+398,Juice,B,Pune,Beverages,Member,2,136.54,Credit Card,4.24,273.08
+399,Tea,B,Pune,Beverages,Normal,6,237.13,UPI,4.33,1422.78
+400,Soft Drinks,C,Mumbai,Beverages,Normal,2,151.39,Debit Card,3.04,302.78
+401,Juice,A,Delhi,Beverages,Normal,5,121.34,Credit Card,3.34,606.7
+402,Chocolate,A,Delhi,Snacks,Normal,6,228.83,UPI,2.61,1372.98
+403,Soft Drinks,A,Delhi,Beverages,Member,3,101.78,UPI,4.98,305.34
+404,Juice,A,Delhi,Beverages,Member,5,90.21,Credit Card,2.73,451.05
+405,Tea,B,Pune,Beverages,Member,6,259.42,Cash,2.63,1556.52
+406,Coffee,C,Mumbai,Beverages,Member,7,362.19,UPI,2.5,2535.33
+407,Soft Drinks,A,Delhi,Beverages,Member,10,71.67,Debit Card,2.52,716.7
+408,Tea,A,Delhi,Beverages,Normal,3,208.98,Cash,3.46,626.94
+409,Milk,A,Delhi,Dairy,Normal,6,109.29,Cash,3.46,655.74
+410,Bread,C,Mumbai,Food,Member,2,64.79,UPI,4.03,129.58
+411,Bread,B,Pune,Food,Normal,4,72.11,Cash,4.8,288.44
+412,Chocolate,C,Mumbai,Snacks,Normal,4,67.34,UPI,2.85,269.36
+413,Milk,C,Mumbai,Dairy,Normal,6,116.69,Credit Card,4.48,700.14
+414,Biscuits,B,Pune,Food,Member,4,108.54,Credit Card,4.45,434.16
+415,Cheese,C,Mumbai,Dairy,Normal,4,271.57,Cash,4.37,1086.28
+416,Coffee,C,Mumbai,Beverages,Member,4,297.96,UPI,3.1,1191.84
+417,Chocolate,A,Delhi,Snacks,Member,6,236.78,Cash,3.47,1420.68
+418,Chocolate,B,Pune,Snacks,Normal,9,186.59,Debit Card,4.89,1679.31
+419,Milk,A,Delhi,Dairy,Member,1,53.6,UPI,4.81,53.6
+420,Juice,C,Mumbai,Beverages,Normal,9,205.75,Debit Card,4.25,1851.75
+421,Milk,C,Mumbai,Dairy,Member,5,37.52,UPI,3.78,187.6
+422,Biscuits,A,Delhi,Food,Normal,7,113.83,UPI,3.28,796.81
+423,Juice,C,Mumbai,Beverages,Member,1,106.45,Debit Card,2.79,106.45
+424,Chocolate,C,Mumbai,Snacks,Member,5,183.22,Cash,2.8,916.1
+425,Bread,C,Mumbai,Food,Member,3,62.23,Credit Card,3.81,186.69
+426,Coffee,A,Delhi,Beverages,Normal,3,399.91,Credit Card,4.33,1199.73
+427,Milk,A,Delhi,Dairy,Normal,7,54.48,UPI,3.16,381.36
+428,Chocolate,C,Mumbai,Snacks,Member,8,141.04,Credit Card,2.64,1128.32
+429,Chocolate,A,Delhi,Snacks,Normal,3,101.02,UPI,4.74,303.06
+430,Milk,A,Delhi,Dairy,Member,1,107.28,UPI,3.11,107.28
+431,Soft Drinks,B,Pune,Beverages,Normal,3,65.05,UPI,3.88,195.15
+432,Juice,A,Delhi,Beverages,Normal,4,139.09,Credit Card,3.18,556.36
+433,Milk,C,Mumbai,Dairy,Normal,2,75.18,UPI,2.95,150.36
+434,Chips,A,Delhi,Snacks,Normal,2,135.24,Credit Card,4.43,270.48
+435,Coffee,B,Pune,Beverages,Member,9,282.7,Credit Card,3.0,2544.3
+436,Chocolate,B,Pune,Snacks,Member,8,123.65,Debit Card,4.99,989.2
+437,Biscuits,C,Mumbai,Food,Member,3,21.02,Debit Card,2.56,63.06
+438,Chips,B,Pune,Snacks,Member,6,30.18,Debit Card,4.62,181.08
+439,Coffee,A,Delhi,Beverages,Member,9,493.25,Debit Card,3.73,4439.25
+440,Cheese,A,Delhi,Dairy,Normal,2,96.24,Cash,4.74,192.48
+441,Chips,B,Pune,Snacks,Normal,8,146.95,UPI,3.95,1175.6
+442,Chips,A,Delhi,Snacks,Normal,2,101.03,UPI,3.59,202.06
+443,Bread,A,Delhi,Food,Normal,5,88.82,Debit Card,4.25,444.1
+444,Tea,B,Pune,Beverages,Normal,5,143.08,Cash,2.84,715.4
+445,Chocolate,A,Delhi,Snacks,Member,2,82.87,Debit Card,3.29,165.74
+446,Milk,C,Mumbai,Dairy,Normal,4,70.67,Debit Card,3.16,282.68
+447,Milk,A,Delhi,Dairy,Member,5,104.37,UPI,3.04,521.85
+448,Tea,A,Delhi,Beverages,Member,4,341.47,Debit Card,3.78,1365.88
+449,Coffee,B,Pune,Beverages,Member,1,480.84,Debit Card,3.89,480.84
+450,Chips,A,Delhi,Snacks,Member,8,42.23,Cash,2.8,337.84
+451,Cheese,A,Delhi,Dairy,Member,4,384.76,Credit Card,4.22,1539.04
+452,Milk,C,Mumbai,Dairy,Normal,2,31.96,UPI,2.99,63.92
+453,Soft Drinks,A,Delhi,Beverages,Member,6,57.15,Debit Card,2.63,342.9
+454,Chocolate,B,Pune,Snacks,Normal,8,55.9,Debit Card,2.93,447.2
+455,Biscuits,A,Delhi,Food,Normal,5,91.36,Cash,2.59,456.8
+456,Chocolate,C,Mumbai,Snacks,Member,5,149.78,Debit Card,2.65,748.9
+457,Coffee,B,Pune,Beverages,Member,7,179.78,Cash,4.08,1258.46
+458,Chips,A,Delhi,Snacks,Normal,6,87.56,Debit Card,3.36,525.36
+459,Chocolate,C,Mumbai,Snacks,Normal,7,104.09,UPI,3.3,728.63
+460,Biscuits,A,Delhi,Food,Normal,1,149.38,Debit Card,3.82,149.38
+461,Chocolate,A,Delhi,Snacks,Member,2,99.57,Cash,3.17,199.14
+462,Cheese,A,Delhi,Dairy,Normal,6,426.03,Cash,2.94,2556.18
+463,Chocolate,B,Pune,Snacks,Normal,10,55.64,Credit Card,4.87,556.4
+464,Chocolate,A,Delhi,Snacks,Member,8,158.42,Cash,3.73,1267.36
+465,Milk,A,Delhi,Dairy,Member,10,49.69,Debit Card,2.5,496.9
+466,Chocolate,A,Delhi,Snacks,Member,6,193.39,Credit Card,2.65,1160.34
+467,Bread,C,Mumbai,Food,Member,2,88.49,Credit Card,4.9,176.98
+468,Tea,C,Mumbai,Beverages,Normal,10,107.28,Credit Card,3.31,1072.8
+469,Bread,C,Mumbai,Food,Normal,8,73.69,Cash,4.27,589.52
+470,Chips,C,Mumbai,Snacks,Normal,4,109.86,Cash,3.45,439.44
+471,Coffee,A,Delhi,Beverages,Member,1,479.52,Debit Card,4.63,479.52
+472,Chocolate,A,Delhi,Snacks,Member,10,113.64,Cash,4.1,1136.4
+473,Milk,B,Pune,Dairy,Member,6,97.08,Cash,3.37,582.48
+474,Tea,A,Delhi,Beverages,Member,6,200.59,Credit Card,3.02,1203.54
+475,Milk,B,Pune,Dairy,Normal,2,94.84,UPI,3.46,189.68
+476,Juice,A,Delhi,Beverages,Normal,8,227.54,Credit Card,3.87,1820.32
+477,Milk,B,Pune,Dairy,Member,3,70.62,UPI,3.24,211.86
+478,Tea,B,Pune,Beverages,Member,2,172.29,Debit Card,2.9,344.58
+479,Milk,C,Mumbai,Dairy,Member,6,83.46,Debit Card,4.26,500.76
+480,Juice,C,Mumbai,Beverages,Member,10,229.05,Cash,2.63,2290.5
+481,Tea,A,Delhi,Beverages,Member,7,268.24,Credit Card,4.15,1877.68
+482,Coffee,A,Delhi,Beverages,Member,1,257.16,Debit Card,2.88,257.16
+483,Tea,A,Delhi,Beverages,Normal,2,159.53,Debit Card,3.0,319.06
+484,Cheese,A,Delhi,Dairy,Member,5,441.51,Debit Card,4.61,2207.55
+485,Coffee,B,Pune,Beverages,Normal,8,457.95,Credit Card,2.73,3663.6
+486,Chips,B,Pune,Snacks,Member,6,136.26,Credit Card,2.97,817.56
+487,Cheese,B,Pune,Dairy,Normal,8,177.46,Credit Card,3.91,1419.68
+488,Bread,C,Mumbai,Food,Member,2,75.11,Debit Card,4.93,150.22
+489,Chocolate,A,Delhi,Snacks,Member,7,213.68,Debit Card,4.91,1495.76
+490,Soft Drinks,C,Mumbai,Beverages,Member,8,81.84,Debit Card,4.76,654.72
+491,Cheese,C,Mumbai,Dairy,Member,2,431.22,Debit Card,2.93,862.44
+492,Bread,A,Delhi,Food,Member,3,28.2,UPI,4.97,84.6
+493,Juice,A,Delhi,Beverages,Member,10,109.0,UPI,2.72,1090.0
+494,Chips,B,Pune,Snacks,Normal,5,92.36,UPI,4.47,461.8
+495,Chocolate,C,Mumbai,Snacks,Normal,2,132.89,Cash,3.92,265.78
+496,Chocolate,A,Delhi,Snacks,Member,10,205.91,Credit Card,4.67,2059.1
+497,Tea,B,Pune,Beverages,Normal,7,256.79,Debit Card,2.59,1797.53
+498,Coffee,B,Pune,Beverages,Member,10,343.46,Debit Card,2.6,3434.6
+499,Tea,C,Mumbai,Beverages,Member,1,281.35,Credit Card,4.74,281.35
+500,Cheese,B,Pune,Dairy,Normal,5,183.73,Debit Card,4.65,918.65
